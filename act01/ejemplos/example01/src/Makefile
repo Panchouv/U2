@@ -7,7 +7,7 @@ TARGET=../example
 
 INCLUDES=-I../include 
 LDFLAGS=
-LDLIBS=
+LDLIBS=-lpthread
 
 CXXFLAGS=-std=c++14 -Wall -O2 
 
