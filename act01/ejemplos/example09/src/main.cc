@@ -6,7 +6,7 @@ int main(int argc, char** argv){
 	
 	uint32_t totalElementos = 100000000;
 	
-    uint32_t sumaSerial = 0;
+	uint32_t sumaSerial = 0;
 	uint32_t sumaParcial1 = 0;
 	uint32_t sumaParcial2 = 0;
 	uint32_t sumaThreads = 0;
@@ -23,19 +23,19 @@ int main(int argc, char** argv){
 	}
 	
 	auto sumaParcial = [](std::vector<uint32_t> &v, size_t left, size_t right) {
-        uint32_t suma = 0;
-        for (size_t i = left; i < right; ++i){
-            suma += v[i];
-        }
+		uint32_t suma = 0;
+		for (size_t i = left; i < right; ++i){
+			suma += v[i];
+		}
 
-        return suma;
-    };
+		return suma;
+	};
 
 	
 	//======THREADS======
 	//(1) Separación del trabajo
 	auto t1 = std::async(std::launch::async, sumaParcial, std::ref(v), 0, v.size() / 2);				
-    auto t2 = std::async(std::launch::async, sumaParcial, std::ref(v), v.size() / 2, v.size());
+	auto t2 = std::async(std::launch::async, sumaParcial, std::ref(v), v.size() / 2, v.size());
 	        
 	sumaParcial1 = t1.get();
 	sumaParcial2 = t2.get();
