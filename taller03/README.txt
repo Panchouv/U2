@@ -1,4 +1,4 @@
-Taller 03: Suma paralela del contenido de un arreglo de números enteros.
+# Taller 03: Suma paralela del contenido de un arreglo de números enteros.
 
 Objetivos:
 
