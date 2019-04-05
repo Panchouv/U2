@@ -17,7 +17,7 @@ Parámetros:
 ## Ejemplo de uso:
 
 1) Crea un arreglo de 1000000 posiciones, con 4 threads. 
-   Los números enteros aleatorios están en el rango [10,50]
+   Los números enteros aleatorios están en el rango [0,50]
 
 ```./sumArray -N 1000000 -t 4 -L 50```
 
