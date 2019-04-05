@@ -1,11 +1,11 @@
 # Taller 03: Suma paralela del contenido de un arreglo de números enteros.
 
-Objetivos:
+## Objetivos:
 
 Crear un programa que llene de un array de numero enteros aleatorios del tipo uint32_t en forma secuencial y que luego los sume en forma paralela. Realizar pruebas de desempeño para mostrar el comportamiento del programa implementado.
 
- Forma de uso:
-
+## Forma de uso:
+```
 ./sumArray -N <nro> -t <nro>  -L <nro> [-h]
 
 Parámetros:
@@ -13,7 +13,7 @@ Parámetros:
 	-t   : número de threads.
 	-L   : límite superior rango aleatorio.
 	[-h] : muestra la ayuda de uso y termina.
- 
+``` 
 Ejemplo de uso:
 
 1) Crea un arreglo de 1000000 posiciones, con 4 threads. 
