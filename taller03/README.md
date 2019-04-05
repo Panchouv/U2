@@ -14,21 +14,21 @@ Parámetros:
 	-L   : límite superior rango aleatorio.
 	[-h] : muestra la ayuda de uso y termina.
 ``` 
-Ejemplo de uso:
+## Ejemplo de uso:
 
 1) Crea un arreglo de 1000000 posiciones, con 4 threads. 
    Los números enteros aleatorios están en el rango [10,50]
 
-./sumArray -N 1000000 -t 4 -L 50
+```./sumArray -N 1000000 -t 4 -L 50```
 
 2) Muestra la ayuda y termina
-
+```
 ./sumArray -h
 ./sumArray
+```
 
+### Trabajo a realizar
 
-Trabajo a realizar
-==================
 1) A partir del código entregado, implementar un programa que llene un arreglo de números enteros tamaño N (en forma secuencial) y que luego los sume a través de t threads.
    
 2) Realizar pruebas de desempeño para un arreglo de tamaño N=2e9, con t={1,2,3,...,16} threads.
