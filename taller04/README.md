@@ -43,6 +43,8 @@ Generación: 4, Cantidad de células vivas (S/P): 280/280
 2) Realizar pruebas de desempeño para un tablero de tamaño 2^n x 2^n, con t={1,2,3,...,16} threads y n={10,11,12,13,14,15}.
    Obtener gráficos de Tejec/Nro threads (G1), SpeedUp/Nro Threads (G2) y Eficiencia/Nro Threads (G3). 
    Cada medición debe ser obtenida a través de la ejecución de 10 o más experimentos. Debe graficar el promedio y su dispersión de los tiempos de ejecución en G1.
+   
+3) Entregar Informe en Aula Virtual y códigos en el servidor.
 
 
 
