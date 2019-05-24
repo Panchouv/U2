@@ -14,7 +14,7 @@ El juego evoluciona en pasos discretos y la primera generación de células es g
 
 ## Forma de uso:
 ```
-./gameOfLife -t <nro> -T <nro>  -p <nro>  -i <nro> -P <0|1>[-h]
+./gameOfLife -t <nro> -T <nro>  -p <nro>  -i <nro> -P <0|1> [-h]
 
 Parámetros:
 	-t   : número de threads.
