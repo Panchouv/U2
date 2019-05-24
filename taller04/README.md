@@ -3,7 +3,7 @@
 
 ## Objetivos:
 
-Diseñar e implementar en C++, con threads, el autómata celular "Game of Life" . El tablero es limitado y deberá tener la misma cantidad de filas y de columnas. Una implementación en C++ la puede obtener de [aquí](https://github.com/gabriel-astudillo/Game-of-live/tree/master/agent%20version) o ver implementaciones en [RossetaCode](http://rosettacode.org/wiki/Conway%27s_Game_of_Life).
+Diseñar e implementar en C++ (std14), con threads, el autómata celular "Game of Life" . El tablero es limitado y deberá tener la misma cantidad de filas y de columnas. Una implementación en C++ la puede obtener de [aquí](https://github.com/gabriel-astudillo/Game-of-live/tree/master/agent%20version) o ver implementaciones en [RossetaCode](http://rosettacode.org/wiki/Conway%27s_Game_of_Life).
 
 ## Descripción del Juego de la vida
 
