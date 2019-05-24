@@ -18,10 +18,10 @@ El juego evoluciona en pasos discretos y la primera generación de células es g
 
 Parámetros:
 	-t   : número de threads.
-  -T   : Tamaño del tablero.
+	-T   : Tamaño del tablero.
 	-p   : Probabilidad inicial de que una célula esté viva.
-  -i   : Cantidad de iteraciones.
-  -P   : Tipo de partición: 0->Franjas, 1:Bloques
+	-i   : Cantidad de iteraciones.
+	-P   : Tipo de partición: 0->Franjas, 1:Bloques
 	[-h] : muestra la ayuda de uso y termina.
 ``` 
 ## Ejemplo de uso:
